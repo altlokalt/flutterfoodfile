@@ -19,6 +19,7 @@ final Map<String, String> enUs = {
   "lbl_delete_user": "Delete User",
   "msg_interest_page_three": "Interest Page Three",
   "lbl_app_navigation": "App Navigation",
+  "msg_videos_container": "Videos container",
   "lbl_japanese": "Japanese",
   "msg_check_your_app_s":
       "Check your app's UI from the below demo screens of your app.",
@@ -56,6 +57,7 @@ final Map<String, String> enUs = {
   "lbl_protein": "Protein",
   "lbl_followers": "Followers",
   "lbl_32": "3",
+  "lbl_search_two": "Search two",
   "msg_enter_your_recipe": "Enter your recipe title",
   "lbl_japan": "Japan",
   "lbl_angelinee": "Angelinee",
@@ -91,7 +93,7 @@ final Map<String, String> enUs = {
   "msg_1_teaspoon_dried2": "1 teaspoon dried oregano ",
   "lbl_asian": "Asian",
   "lbl_2_34": "\$2.34",
-  "msg_detail_ingridients": "Detail Ingridients - Tab Container",
+  "msg_detail_ingridients": "Detail Ingridients container",
   "msg_23_recipe_you_can": "23 Recipe you can make:",
   "msg_top_10_foods_must": "Top 10 Foods Must Try in Jakarta ",
   "msg_26_29_8_none_34_29": "\$26.29\n\$8\nNone\n\$34.29",
@@ -203,7 +205,7 @@ final Map<String, String> enUs = {
   "lbl_vietnamese": "Vietnamese",
   "lbl": "🥓",
   "lbl_sugar": "Sugar",
-  "msg_videos_tab_container": "Videos - Tab Container",
+  "msg_cook_experiment2": "Cook Experiment One",
   "lbl_trending_food": "Trending Food",
   "lbl_malay": "Malay",
   "msg_4_6_5_ounce_cans": "4 (6.5 ounce) cans tomato sauce",
@@ -211,7 +213,6 @@ final Map<String, String> enUs = {
   "msg_add_a_photo_of_the": "Add a photo of the recipe",
   "msg_sub_total_price_delivery":
       "Sub total Price Delivery Fee Promo code Total price",
-  "lbl_search": "Search",
   "lbl_indian": "Indian",
   "msg_what_ingredients": "What ingredients are there in your kitchen?",
   "lbl_potatoes": "Potatoes",
@@ -231,6 +232,6 @@ final Map<String, String> enUs = {
   "lbl_notification": "Notification",
   "lbl_review": "Review",
   "msg_18_item_ingridients": "18 item ingridients ",
-  "msg_cook_experiment": "Cook Experiment One",
+  "msg_cook_experiment": "Cook Experiment two",
   "msg_delivery_address": "Delivery Address"
 };

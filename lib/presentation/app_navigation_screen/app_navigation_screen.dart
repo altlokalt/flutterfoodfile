@@ -191,7 +191,7 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                     ]))),
                                         GestureDetector(
                                             onTap: () {
-                                              onTapVideosTabContainer();
+                                              onTapVideoscontainer();
                                             },
                                             child: Container(
                                                 decoration:
@@ -212,7 +212,7 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                                       bottom:
                                                                           10),
                                                               child: Text(
-                                                                  "msg_videos_tab_container"
+                                                                  "msg_videos_container"
                                                                       .tr,
                                                                   overflow:
                                                                       TextOverflow
@@ -234,7 +234,7 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                     ]))),
                                         GestureDetector(
                                             onTap: () {
-                                              onTapDetailIngridientsTabContainer();
+                                              onTapDetailIngridientscontainer();
                                             },
                                             child: Container(
                                                 decoration:
@@ -363,7 +363,7 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                     ]))),
                                         GestureDetector(
                                             onTap: () {
-                                              onTapCookExperiment();
+                                              onTapCookExperimenttwo();
                                             },
                                             child: Container(
                                                 decoration:
@@ -384,7 +384,7 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                                       bottom:
                                                                           10),
                                                               child: Text(
-                                                                  "lbl_cook_experiment"
+                                                                  "msg_cook_experiment"
                                                                       .tr,
                                                                   overflow:
                                                                       TextOverflow
@@ -427,7 +427,7 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                                       bottom:
                                                                           10),
                                                               child: Text(
-                                                                  "msg_cook_experiment"
+                                                                  "msg_cook_experiment2"
                                                                       .tr,
                                                                   overflow:
                                                                       TextOverflow
@@ -492,7 +492,7 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                     ]))),
                                         GestureDetector(
                                             onTap: () {
-                                              onTapSearch();
+                                              onTapSearchtwo();
                                             },
                                             child: Container(
                                                 decoration:
@@ -513,7 +513,7 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                                       bottom:
                                                                           10),
                                                               child: Text(
-                                                                  "lbl_search"
+                                                                  "lbl_search_two"
                                                                       .tr,
                                                                   overflow:
                                                                       TextOverflow
@@ -936,12 +936,12 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
     Get.toNamed(AppRoutes.homeContainerScreen);
   }
 
-  onTapVideosTabContainer() {
-    Get.toNamed(AppRoutes.videosTabContainerScreen);
+  onTapVideoscontainer() {
+    Get.toNamed(AppRoutes.videosContainerScreen);
   }
 
-  onTapDetailIngridientsTabContainer() {
-    Get.toNamed(AppRoutes.detailIngridientsTabContainerScreen);
+  onTapDetailIngridientscontainer() {
+    Get.toNamed(AppRoutes.detailIngridientsContainerScreen);
   }
 
   onTapCreateRecipe() {
@@ -961,8 +961,8 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
     ));
   }
 
-  onTapCookExperiment() {
-    Get.toNamed(AppRoutes.cookExperimentScreen);
+  onTapCookExperimenttwo() {
+    Get.toNamed(AppRoutes.cookExperimentTwoScreen);
   }
 
   onTapCookExperimentOne() {
@@ -980,8 +980,8 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
     );
   }
 
-  onTapSearch() {
-    Get.toNamed(AppRoutes.searchScreen);
+  onTapSearchtwo() {
+    Get.toNamed(AppRoutes.searchTwoScreen);
   }
 
   onTapSearchOne() {

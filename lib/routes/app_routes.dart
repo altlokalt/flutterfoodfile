@@ -4,18 +4,18 @@ import 'package:altlokalt_s_application1/presentation/interest_page_one_screen/i
 import 'package:altlokalt_s_application1/presentation/interest_page_one_screen/binding/interest_page_one_binding.dart';
 import 'package:altlokalt_s_application1/presentation/home_container_screen/home_container_screen.dart';
 import 'package:altlokalt_s_application1/presentation/home_container_screen/binding/home_container_binding.dart';
-import 'package:altlokalt_s_application1/presentation/videos_tab_container_screen/videos_tab_container_screen.dart';
-import 'package:altlokalt_s_application1/presentation/videos_tab_container_screen/binding/videos_tab_container_binding.dart';
-import 'package:altlokalt_s_application1/presentation/detail_ingridients_tab_container_screen/detail_ingridients_tab_container_screen.dart';
-import 'package:altlokalt_s_application1/presentation/detail_ingridients_tab_container_screen/binding/detail_ingridients_tab_container_binding.dart';
+import 'package:altlokalt_s_application1/presentation/videos_container_screen/videos_container_screen.dart';
+import 'package:altlokalt_s_application1/presentation/videos_container_screen/binding/videos_container_binding.dart';
+import 'package:altlokalt_s_application1/presentation/detail_ingridients_container_screen/detail_ingridients_container_screen.dart';
+import 'package:altlokalt_s_application1/presentation/detail_ingridients_container_screen/binding/detail_ingridients_container_binding.dart';
 import 'package:altlokalt_s_application1/presentation/create_recipe_screen/create_recipe_screen.dart';
 import 'package:altlokalt_s_application1/presentation/create_recipe_screen/binding/create_recipe_binding.dart';
-import 'package:altlokalt_s_application1/presentation/cook_experiment_screen/cook_experiment_screen.dart';
-import 'package:altlokalt_s_application1/presentation/cook_experiment_screen/binding/cook_experiment_binding.dart';
+import 'package:altlokalt_s_application1/presentation/cook_experiment_two_screen/cook_experiment_two_screen.dart';
+import 'package:altlokalt_s_application1/presentation/cook_experiment_two_screen/binding/cook_experiment_two_binding.dart';
 import 'package:altlokalt_s_application1/presentation/cook_experiment_one_screen/cook_experiment_one_screen.dart';
 import 'package:altlokalt_s_application1/presentation/cook_experiment_one_screen/binding/cook_experiment_one_binding.dart';
-import 'package:altlokalt_s_application1/presentation/search_screen/search_screen.dart';
-import 'package:altlokalt_s_application1/presentation/search_screen/binding/search_binding.dart';
+import 'package:altlokalt_s_application1/presentation/search_two_screen/search_two_screen.dart';
+import 'package:altlokalt_s_application1/presentation/search_two_screen/binding/search_two_binding.dart';
 import 'package:altlokalt_s_application1/presentation/search_one_screen/search_one_screen.dart';
 import 'package:altlokalt_s_application1/presentation/search_one_screen/binding/search_one_binding.dart';
 import 'package:altlokalt_s_application1/presentation/checkout_screen/checkout_screen.dart';
@@ -55,24 +55,24 @@ class AppRoutes {
 
   static const String videosPage = '/videos_page';
 
-  static const String videosTabContainerScreen = '/videos_tab_container_screen';
+  static const String videosContainerScreen = '/videos_container_screen';
 
   static const String detailIngridientsTwoPage = '/detail_ingridients_two_page';
 
   static const String detailIngridientsPage = '/detail_ingridients_page';
 
-  static const String detailIngridientsTabContainerScreen =
-      '/detail_ingridients_tab_container_screen';
+  static const String detailIngridientsContainerScreen =
+      '/detail_ingridients_container_screen';
 
   static const String detailIngridientsOnePage = '/detail_ingridients_one_page';
 
   static const String createRecipeScreen = '/create_recipe_screen';
 
-  static const String cookExperimentScreen = '/cook_experiment_screen';
+  static const String cookExperimentTwoScreen = '/cook_experiment_two_screen';
 
   static const String cookExperimentOneScreen = '/cook_experiment_one_screen';
 
-  static const String searchScreen = '/search_screen';
+  static const String searchTwoScreen = '/search_two_screen';
 
   static const String searchOneScreen = '/search_one_screen';
 
@@ -117,17 +117,17 @@ class AppRoutes {
       ],
     ),
     GetPage(
-      name: videosTabContainerScreen,
-      page: () => VideosTabContainerScreen(),
+      name: videosContainerScreen,
+      page: () => VideosContainerScreen(),
       bindings: [
-        VideosTabContainerBinding(),
+        VideosContainerBinding(),
       ],
     ),
     GetPage(
-      name: detailIngridientsTabContainerScreen,
-      page: () => DetailIngridientsTabContainerScreen(),
+      name: detailIngridientsContainerScreen,
+      page: () => DetailIngridientsContainerScreen(),
       bindings: [
-        DetailIngridientsTabContainerBinding(),
+        DetailIngridientsContainerBinding(),
       ],
     ),
     GetPage(
@@ -138,10 +138,10 @@ class AppRoutes {
       ],
     ),
     GetPage(
-      name: cookExperimentScreen,
-      page: () => CookExperimentScreen(),
+      name: cookExperimentTwoScreen,
+      page: () => CookExperimentTwoScreen(),
       bindings: [
-        CookExperimentBinding(),
+        CookExperimentTwoBinding(),
       ],
     ),
     GetPage(
@@ -152,10 +152,10 @@ class AppRoutes {
       ],
     ),
     GetPage(
-      name: searchScreen,
-      page: () => SearchScreen(),
+      name: searchTwoScreen,
+      page: () => SearchTwoScreen(),
       bindings: [
-        SearchBinding(),
+        SearchTwoBinding(),
       ],
     ),
     GetPage(

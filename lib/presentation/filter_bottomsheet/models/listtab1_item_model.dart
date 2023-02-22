@@ -1,0 +1,1 @@
+class Listtab1ItemModel {}
